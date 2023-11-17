@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random password generator</title>
+</head>
+<body style="background-color: black;">
+    <div style="border-style:solid;border-color:  white;margin-left:300px;width:800px;margin-top:100px">
+        <h1 style="color: aliceblue;text-align: center;">Password Generator</h1>
+        <input style="border-radius: 10px;width:500px;margin-left: 100px;height:30px" id="pass-box" type="text">
+        <br>
+        <button style="width:200px;margin-left: 150px;border-radius: 10px;background-color: blue;margin-top: 20px;height:30px" id="btn">Generate</button>
+        <button style="width:200px;border-radius: 10px;background-color: blue;height:30px" id="copybtn">Copy To ClipBoard</button>
+        <br>
+        <h3 style="margin-left: 100px;color:white;display: inline-block;" >Password Length</h3>
+        <input style="display:inline;width: 50px;margin-left: 300px;margin-top: 30px;" min="1" id="total-char" type="number">
+        <br>
+        <h3 style="margin-left: 100px;color:white;display: inline-block;margin-top: 30px;">Include uppercase letters</h3>
+        <input style="display:inline;width: 50px;margin-left: 225px;margin-top: 30px;" id="upper-case" checked type="checkbox">
+        <br>
+        <h3 style="margin-left: 100px;color:white;display: inline-block;margin-top: 30px;">Include lowercase letters</h3>
+        <input style="display:inline;width: 50px;margin-left: 230px;margin-top: 30px;" id="lower-case" checked type="checkbox">
+        <br>
+        <h3 style="margin-left: 100px;color:white;display: inline-block;margin-top: 30px;">Include numbers</h3>
+        <input style="display:inline;width: 50px;margin-left: 295px;margin-top: 30px;" id="numbers" checked type="checkbox">
+        <br>
+        <h3 style="margin-left: 100px;color:white;display: inline-block;margin-top: 30px;">Include Symbols</h3>
+        <input style="display:inline;width: 50px;margin-left: 300px;margin-top: 30px;" id="symbols" checked type="checkbox">
+    </div>
+    <script src="first.js"></script>
+</body>
+</html>
